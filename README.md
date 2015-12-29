@@ -7,7 +7,7 @@ This demo shows how to use distanceTo() to calculate the distance between two en
 
 I use imapct-node with Impact.js games instead of the out-of-the-box PHP solution that comes with Impact.
 
-You will need to add your Weltmeister and Impact folders that your have when you purchase a license.
+You will need to add your src/lib/impact folder that your have when you purchase a license.
 
 You can run the files from the build folder, but to see and modify the source code you need to install impact-node:
 
