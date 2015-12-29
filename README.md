@@ -1,17 +1,21 @@
 #README
 
-Dreamsong is the an HTML5 game made with the ImpactJS game engine. It uses the impact-node server instead of Impact's built-in PHP solution for the Weltmeister editor and for baking.
+This demo shows how to use distanceTo() to calculate the distance between two entities.
 
-#The game
-
-- You are a girl trapped in a dream world. You must find four sacred instruments and defeat the piper to escape the dream.
-- Version 0.12.0
 
 #Setup
 
+I use imapct-node with Impact.js games instead of the out-of-the-box PHP solution that comes with Impact.
+
+You will need to add your Weltmeister and Impact folders that your have when you purchase a license.
+
+You can run the files from the build folder, but to see and modify the source code you need to install impact-node:
+
 - Install the impact-node server by typing ```npm install -g impact-node``` and then type ```impact-node serve``` and go to http://localhost:3000
 - Does not require ```impact-node``` but is set up for it and is missing some of Impact's tools for building using bake script.
-- Dev code changes are seen in localhost:3000. To build, type ```impact-node build```</li>
+- Dev code changes are seen in localhost:3000.
+- To use Weltmeister to go localhost:3000/editor
+- To build, type ```impact-node build```</li>
 </ul>
 
 #Author
